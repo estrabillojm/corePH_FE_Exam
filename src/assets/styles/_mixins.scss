@@ -1,0 +1,18 @@
+@mixin justifyAllCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin extraShadow($degree){
+    width:20px;
+    background: $asparagusComplementary;
+    z-index:0;
+    position:absolute;
+    height:80%;
+    transform: rotateZ($degree);
+}
+
+@mixin animate($animate, $duration, $method, $times){
+    animation: $animate $duration $method $times;
+}

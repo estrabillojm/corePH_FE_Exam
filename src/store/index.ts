@@ -1,14 +1,12 @@
 import { createStore } from 'vuex'
+import topStory from './modules/topStory'
+import item from './modules/item'
+import author from './modules/author'
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    topStory,
+    item,
+    author
   }
 })

@@ -1,0 +1,8 @@
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1px;
+}/*# sourceMappingURL=layout.css.map */
