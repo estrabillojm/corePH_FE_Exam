@@ -2,7 +2,7 @@
     <div class="loader-container">
       <h3>
         <div class="line-loader-1"></div>
-        Loading Data from <span>Hacker API</span>
+        Loading Data from <span>Hacker News API</span>
         <div class="line-loader-2"></div>
       </h3>
     </div>
